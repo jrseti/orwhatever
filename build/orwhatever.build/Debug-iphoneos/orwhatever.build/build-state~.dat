@@ -1,0 +1,493 @@
+Torwhatever
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/orwhatever.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Info.plist orwhatever/orwhatever-Info.plist
+cProcessPCH /var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch.pth orwhatever/orwhatever-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/main.o /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/AppDelegate.o /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/ViewController.o /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhatever normal armv7s
+cGenerateDSYMFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app.dSYM /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhatever
+cCopyStringsFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/en.lproj/InfoPlist.strings orwhatever/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default.png orwhatever/Default.png
+cCopyPNGFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default@2x.png orwhatever/Default@2x.png
+cCopyPNGFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default-568h@2x.png orwhatever/Default-568h@2x.png
+cCompileStoryboard /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPad.storyboard
+cCpResource ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle build/Debug-iphoneos/orwhatever.app/FacebookSDKResources.bundle
+cCpResource ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle build/Debug-iphoneos/orwhatever.app/FBUserSettingsViewResources.bundle
+cCopyPNGFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/BoxNWhiskers.png orwhatever/BoxNWhiskers.png
+cProcessProductPackaging "/Users/jrichards/Library/MobileDevice/Provisioning Profiles/49CEBA3E-E9BA-471E-ABDE-3802A5B63DA5.mobileprovision" /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/jrichards/Library/MobileDevice/Provisioning Profiles/49CEBA3E-E9BA-471E-ABDE-3802A5B63DA5.mobileprovision" /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/embedded.mobileprovision
+cTouch /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever.xcent
+cCodeSign /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c000000005172EBB50000000000000110
+t1366485941
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c000000005130F7B000000000000001A7
+t1362163632
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c000000005130F7B000000000000001E5
+t1362163632
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Accounts.framework/Accounts
+c000000005130F7B20000000000049500
+t1362163634
+s300288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AdSupport.framework/AdSupport
+c000000005130F7B20000000000008BE0
+t1362163634
+s35808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005130F7B40000000000322700
+t1362163636
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005130F7B5000000000062AD10
+t1362163637
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005130F7B400000000000015F7
+t1362163636
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005130F7B700000000000A8A40
+t1362163639
+s690752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Social.framework/Social
+c000000005130F7B700000000001889F0
+t1362163639
+s1608176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000005130F7B70000000000000E8D
+t1362163639
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005130F7BA00000000011BCDF0
+t1362163642
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c000000005130F7C00000000000001B73
+t1362163648
+s7027
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/lib/libsqlite3.dylib
+c000000005130F7C60000000000121470
+t1362163654
+s1184880
+
+N/Users/jrichards/Library/MobileDevice/Provisioning Profiles/49CEBA3E-E9BA-471E-ABDE-3802A5B63DA5.mobileprovision
+c0000000051800DCE00000000000044C6
+t1367346638
+s17606
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK/FacebookSDK.framework/FacebookSDK
+c0000000051C1E9F90000000000AA9C94
+t1371662841
+s11181204
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle
+c0000000051C1E9FA0000000000000088
+t1371662842
+s136
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle
+c0000000051C1E9F90000000000000110
+t1371662841
+s272
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app.dSYM
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/BoxNWhiskers.png
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default.png
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default@2x.png
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/FBUserSettingsViewResources.bundle
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/FacebookSDKResources.bundle
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Info.plist
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/PkgInfo
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/ResourceRules.plist
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhatever
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/orwhatever.LinkFileList
+c0000000051E1701E00000000000001AF
+t1373728798
+s431
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever.xcent
+t2
+s0
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/AppDelegate.m
+c0000000051E0A2F600000000000007E2
+t1373676278
+s2018
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/BoxNWhiskers.png
+c0000000050C78583000000000001AE3C
+t1355253123
+s110140
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m
+c0000000051E16FAA00000000000012EA
+t1373728682
+s4842
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/InfoPlist.strings
+c0000000051E0A2F6000000000000002D
+t1373676278
+s45
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPad.storyboard
+c0000000051E0A2F6000000000000061D
+t1373676278
+s1565
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPhone.storyboard
+c0000000051E168780000000000000F7B
+t1373726840
+s3963
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/main.m
+c0000000051E0A2F6000000000000015B
+t1373676278
+s347
+
+N/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/orwhatever-Prefix.pch
+c0000000051E0A2F60000000000000143
+t1373676278
+s323
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch.pth
+t2
+s0
+
+Norwhatever/orwhatever-Info.plist
+c0000000051E0D4010000000000000846
+t1373688833
+s2118
+
+CBuild AST from /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/AppDelegate.m
+r0
+
+CBuild AST from /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m
+r0
+
+CBuild AST from /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc3d6709ea791b741^be4fd59ea791b741^---0#1#0#--18"Check dependencies36"ABFA17AB-6303-4C91-BBBA-5979EE6DC62F-
+
+CCodeSign /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app
+s395421606.681517
+e395421606.990249
+r1
+xCodeSign
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"CodeSign build/Debug-iphoneos/orwhatever.app2590aea6a791b741^236903a7a791b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/0000000000000000^866"CodeSign build/Debug-iphoneos/orwhatever.app    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 40bb82650578f782a62df820ffdd192e6ec1f582 --resource-rules=/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/ResourceRules.plist --entitlements /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever.xcent /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app36"ECE61282-8002-4189-98E5-068210DA3522-
+
+CCompileC build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/AppDelegate.o /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395421599.461708
+e395421600.543972
+r1
+xCompileC
+xbuild/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/AppDelegate.m1157769fa791b741^42438ba0a791b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/AppDelegate.m0000000000000000^3633"CompileC build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/AppDelegate.o orwhatever/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-generated-files.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-own-target-headers.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-all-target-headers.hmap -iquote /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-project-headers.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/DerivedSources/armv7s -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/DerivedSources -F/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos -F/Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK -include /var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch -MMD -MT dependencies -MF /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/AppDelegate.m -o /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/AppDelegate.o36"29939A02-DD56-4F9E-A7E0-8027374B3DFC-
+
+CCompileC build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/ViewController.o /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395421600.545375
+e395421600.744762
+r1
+xCompileC
+xbuild/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/ViewController.o
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m:92:10: warning: unused variable 'displayedNativeDialog' [-Wunused-variable]
+o    BOOL displayedNativeDialog = [FBDialogs presentOSIntegratedShareDialogModallyFrom:self
+o         ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.mf4c48ba0a791b741^c5a9bea0a791b741^-281"/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m:92:10: warning: unused variable 'displayedNativeDialog' [-Wunused-variable]    BOOL displayedNativeDialog = [FBDialogs presentOSIntegratedShareDialogModallyFrom:self         ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@39"Unused variable 'displayedNativeDialog'-395421600#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m0000000000000000^91#9#91#9#2327#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@97"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m0000000000000000^3651"CompileC build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/ViewController.o orwhatever/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-generated-files.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-own-target-headers.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-all-target-headers.hmap -iquote /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-project-headers.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/DerivedSources/armv7s -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/DerivedSources -F/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos -F/Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK -include /var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch -MMD -MT dependencies -MF /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/ViewController.dia -c /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/ViewController.m -o /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/ViewController.o36"18C1D50D-03E4-4EF8-BEC2-35A097871E6D-
+
+CCompileC build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/main.o /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395421599.461338
+e395421600.626187
+r1
+xCompileC
+xbuild/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/main.o
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/main.ma644769fa791b741^234da0a0a791b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/main.m0000000000000000^3591"CompileC build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/main.o orwhatever/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-generated-files.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-own-target-headers.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-all-target-headers.hmap -iquote /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-project-headers.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/DerivedSources/armv7s -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/DerivedSources -F/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos -F/Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK -include /var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch -MMD -MT dependencies -MF /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/main.dia -c /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/main.m -o /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/main.o36"107F65E8-8A7C-42FE-A6E5-2E0839C7882F-
+
+CCompileStoryboard /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPad.storyboard
+s395421603.968720
+e395421605.468646
+r1
+xCompileStoryboard
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPad.storyboard
+o2013-07-13 08:20:04.206 Interface Builder Cocoa Touch Tool[24064:f07] CFPreferences: user home directory at file://localhost/Users/jrichards/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard orwhatever/en.lproj/MainStoryboard_iPad.storyboard9d12f8a3a791b741^a83a78a5a791b741^-242"2013-07-13 08:20:04.206 Interface Builder Cocoa Touch Tool[24064:f07] CFPreferences: user home directory at file://localhost/Users/jrichards/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^940"CompileStoryboard orwhatever/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"CA99CA73-052C-4AF0-99CD-9D43A07E96EC-
+
+CCompileStoryboard /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPhone.storyboard
+s395421603.900543
+e395421606.548314
+r1
+xCompileStoryboard
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPhone.storyboard
+o2013-07-13 08:20:04.136 Interface Builder Cocoa Touch Tool[24062:f07] CFPreferences: user home directory at file://localhost/Users/jrichards/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CompileStoryboard orwhatever/en.lproj/MainStoryboard_iPhone.storyboardf59ee6a3a791b741^376f8ca6a791b741^-242"2013-07-13 08:20:04.136 Interface Builder Cocoa Touch Tool[24062:f07] CFPreferences: user home directory at file://localhost/Users/jrichards/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^946"CompileStoryboard orwhatever/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"83B327EC-7A3B-49F5-AAB9-7666B4FDA499-
+
+CCopyPNGFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/BoxNWhiskers.png orwhatever/BoxNWhiskers.png
+s395421606.025485
+e395421606.450100
+r1
+xCopyPNGFile
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/BoxNWhiskers.png
+xorwhatever/BoxNWhiskers.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/Debug-iphoneos/orwhatever.app/BoxNWhiskers.png orwhatever/BoxNWhiskers.png9a9806a6a791b741^4b3973a6a791b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/BoxNWhiskers.png0000000000000000^645"CopyPNGFile build/Debug-iphoneos/orwhatever.app/BoxNWhiskers.png orwhatever/BoxNWhiskers.png    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/BoxNWhiskers.png /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/BoxNWhiskers.png36"0C5ED638-4543-4411-84F4-63857C41D462-
+
+CCopyPNGFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default-568h@2x.png orwhatever/Default-568h@2x.png
+s395421603.860102
+e395421603.967366
+r1
+xCopyPNGFile
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default-568h@2x.png
+xorwhatever/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/Debug-iphoneos/orwhatever.app/Default-568h@2x.png orwhatever/Default-568h@2x.png3d43dca3a791b741^b5a4f7a3a791b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/Default-568h@2x.png0000000000000000^665"CopyPNGFile "build/Debug-iphoneos/orwhatever.app/Default-568h@2x.png" "orwhatever/Default-568h@2x.png"    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/Default-568h@2x.png" "/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default-568h@2x.png"36"77F6EC19-CCA2-4C88-8F56-7CC97CE20228-
+
+CCopyPNGFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default.png orwhatever/Default.png
+s395421603.684634
+e395421603.858892
+r1
+xCopyPNGFile
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default.png
+xorwhatever/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile build/Debug-iphoneos/orwhatever.app/Default.png orwhatever/Default.png6d54afa3a791b741^bf0adca3a791b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/Default.png0000000000000000^625"CopyPNGFile build/Debug-iphoneos/orwhatever.app/Default.png orwhatever/Default.png    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/Default.png /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default.png36"4555A7DF-50FB-450F-8C56-62E480DAB3BF-
+
+CCopyPNGFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default@2x.png orwhatever/Default@2x.png
+s395421603.724082
+e395421603.899302
+r1
+xCopyPNGFile
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default@2x.png
+xorwhatever/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Debug-iphoneos/orwhatever.app/Default@2x.png orwhatever/Default@2x.pngbe85b9a3a791b741^6058e6a3a791b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/Default@2x.png0000000000000000^645"CopyPNGFile "build/Debug-iphoneos/orwhatever.app/Default@2x.png" "orwhatever/Default@2x.png"    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/Default@2x.png" "/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Default@2x.png"36"2C7C8F59-9A13-45F5-B4E9-D65AD8580221-
+
+CCopyStringsFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/en.lproj/InfoPlist.strings orwhatever/en.lproj/InfoPlist.strings
+s395421603.683437
+e395421603.722544
+r1
+xCopyStringsFile
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/en.lproj/InfoPlist.strings
+xorwhatever/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy orwhatever/en.lproj/InfoPlist.strings7409afa3a791b741^b114b9a3a791b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/en.lproj/InfoPlist.strings0000000000000000^596"CopyStringsFile build/Debug-iphoneos/orwhatever.app/en.lproj/InfoPlist.strings orwhatever/en.lproj/InfoPlist.strings    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/en.lproj -- orwhatever/en.lproj/InfoPlist.strings36"15BA248A-C55F-41C7-9155-25714402FD9A-
+
+CCpResource ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle build/Debug-iphoneos/orwhatever.app/FBUserSettingsViewResources.bundle
+s395421605.614895
+e395421606.024155
+r1
+xCpResource
+x../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle
+xbuild/Debug-iphoneos/orwhatever.app/FBUserSettingsViewResources.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug-iphoneos/orwhatever.app/FBUserSettingsViewResources.bundle1b849da5a791b741^be2f06a6a791b741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/FBUserSettingsViewResources.bundle000000000080d041^805"CpResource ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle build/Debug-iphoneos/orwhatever.app/FBUserSettingsViewResources.bundle    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app36"F7299B26-DD2E-4CFC-8CDC-2A68720A0D59-
+
+CCpResource ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle build/Debug-iphoneos/orwhatever.app/FacebookSDKResources.bundle
+s395421605.470037
+e395421605.613501
+r1
+xCpResource
+x../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle
+xbuild/Debug-iphoneos/orwhatever.app/FacebookSDKResources.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphoneos/orwhatever.app/FacebookSDKResources.bundle406978a5a791b741^d579cca5a791b741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/FacebookSDKResources.bundle000000000080d041^784"CpResource ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle build/Debug-iphoneos/orwhatever.app/FacebookSDKResources.bundle    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app36"3561264A-C904-4228-ADFB-C5F946C851F8-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/orwhatever.app/ResourceRules.plist
+s395421598.840069
+e395421598.844563
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/orwhatever.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphoneos/orwhatever.app/ResourceRules.plist9528d79ea791b741^813fd89ea791b741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/ResourceRules.plist000000000080d041^762"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/orwhatever.app/ResourceRules.plist    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app36"F0213C54-1BBB-491D-9B7C-14EB633059F6-
+
+CGenerateDSYMFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app.dSYM /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhatever
+s395421603.464007
+e395421603.675943
+r1
+xGenerateDSYMFile
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app.dSYM
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhatever
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Generate /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app.dSYM2ae076a3a791b741^3d10ada3a791b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app.dSYM000000000080d041^653"GenerateDSYMFile build/Debug-iphoneos/orwhatever.app.dSYM build/Debug-iphoneos/orwhatever.app/orwhatever    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhatever -o /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app.dSYM36"E3AEB5D0-4A83-4655-AFCA-B029ECC72F79-
+
+CLd /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhatever normal armv7s
+s395421600.751269
+e395421603.407749
+r1
+xLd
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhatever
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhateverd671c0a0a791b741^c66968a3a791b741^---0#0#0#--1446"Ld build/Debug-iphoneos/orwhatever.app/orwhatever normal armv7s    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos -F/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos -F/Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK -filelist /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/Objects-normal/armv7s/orwhatever.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -weak_framework Accounts -weak_framework AdSupport -weak-lsqlite3 -weak_framework Security -weak_framework Social -framework UIKit -framework Foundation -framework CoreGraphics -framework FacebookSDK -framework Accounts -framework AdSupport -lsqlite3 -framework Security -framework Social -o /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/orwhatever36"E87ECA2A-D4D0-4EB1-9393-D46BEC8E4956-
+
+CProcessInfoPlistFile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Info.plist orwhatever/orwhatever-Info.plist
+s395421598.840671
+e395421598.901048
+r1
+xProcessInfoPlistFile
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Info.plist
+xorwhatever/orwhatever-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process orwhatever/orwhatever-Info.plist4949d79ea791b741^cdabe69ea791b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/orwhatever-Info.plist0000000000000000^810"ProcessInfoPlistFile build/Debug-iphoneos/orwhatever.app/Info.plist orwhatever/orwhatever-Info.plist    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility orwhatever/orwhatever-Info.plist -genpkginfo /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/ResourceRules.plist -o /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/Info.plist36"49ED5F34-A979-4E68-ABF2-4ED75FE7B5FB-
+
+CProcessPCH /Users/jrichards/Library/Developer/Xcode/DerivedData/orwhatever-gurioauzbnvrztajmjbpvjfydlqg/Index/PrecompiledHeaders/orwhatever-Prefix-dhhmxwjxpkhksdbxsmpqvbdiebfi_ast/orwhatever-Prefix.pch.pth orwhatever/orwhatever-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch.pth orwhatever/orwhatever-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395421598.909539
+e395421599.454380
+r1
+xProcessPCH
+x/var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch.pth
+xorwhatever/orwhatever-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile orwhatever/orwhatever-Prefix.pch1805e99ea791b741^df6b749fa791b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/orwhatever-Prefix.pch0000000000000000^3624"ProcessPCH /var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch.pth orwhatever/orwhatever-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-generated-files.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-own-target-headers.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-all-target-headers.hmap -iquote /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever-project-headers.hmap -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/DerivedSources/armv7s -I/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/DerivedSources -F/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos -F/Users/jrichards/projects/MoversAndShakers/orwhatever/../../../Documents/FacebookSDK --serialize-diagnostics /var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch.dia -c /Users/jrichards/projects/MoversAndShakers/orwhatever/orwhatever/orwhatever-Prefix.pch -o /var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4w/kryv68wn24bf455n2m5rrdnc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/orwhatever-Prefix-cpsuyajixtmeazawmyjypepuiach/orwhatever-Prefix.pch.d36"4F2157CD-6299-4894-B75B-3BB71C538705-
+
+CProcessProductPackaging "/Users/jrichards/Library/MobileDevice/Provisioning Profiles/49CEBA3E-E9BA-471E-ABDE-3802A5B63DA5.mobileprovision" /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/embedded.mobileprovision
+s395421606.618677
+e395421606.624133
+r1
+xProcessProductPackaging
+x/Users/jrichards/Library/MobileDevice/Provisioning Profiles/49CEBA3E-E9BA-471E-ABDE-3802A5B63DA5.mobileprovision
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection199"ProcessProductPackaging "/Users/jrichards/Library/MobileDevice/Provisioning Profiles/49CEBA3E-E9BA-471E-ABDE-3802A5B63DA5.mobileprovision" build/Debug-iphoneos/orwhatever.app/embedded.mobileprovision57799ea6a791b741^06d49fa6a791b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/embedded.mobileprovision0000000000000000^718"ProcessProductPackaging "/Users/jrichards/Library/MobileDevice/Provisioning Profiles/49CEBA3E-E9BA-471E-ABDE-3802A5B63DA5.mobileprovision" build/Debug-iphoneos/orwhatever.app/embedded.mobileprovision    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/jrichards/Library/MobileDevice/Provisioning Profiles/49CEBA3E-E9BA-471E-ABDE-3802A5B63DA5.mobileprovision" -o /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app/embedded.mobileprovision36"2D4986CD-3528-4798-B1F0-82E05B72570C-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever.xcent
+s395421606.668343
+e395421606.673579
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection216"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever.xcent9d2eaba6a791b741^f27aaca6a791b741^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever.xcent000000000080d041^778"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever.xcent    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/jrichards/projects/MoversAndShakers/orwhatever/build/orwhatever.build/Debug-iphoneos/orwhatever.build/orwhatever.xcent36"A42B5E6B-7505-4AA4-B72E-97F9B3FB26FC-
+
+CTouch /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app
+s395421606.632126
+e395421606.660307
+r1
+xTouch
+x/Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app9be6a1a6a791b741^ca16a9a6a791b741^---0#0#0#--403"Touch build/Debug-iphoneos/orwhatever.app    cd /Users/jrichards/projects/MoversAndShakers/orwhatever    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jrichards/projects/MoversAndShakers/orwhatever/build/Debug-iphoneos/orwhatever.app36"23608068-2DCF-4C32-812E-FF525A89B03B-
+

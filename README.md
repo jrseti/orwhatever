@@ -1,7 +1,7 @@
 orwhatever
 ==========
 
-The OR-Whatever iPhone app developed at iOSDevCamp2013. I did this with my 14 year old daughter and my 16 year old son. We came up with the idea on Friday afternoon, and it was complete by noon on Sunday. I (Jon Richards) did all the coding, and I taught my kids how to use Gimp for the artwork.
+The OR-Whatever iPhone app developed at iOSDevCamp2013. I came up with the idea on Friday afternoon, and it was complete by noon on Sunday. I (Jon Richards) did all the coding, and I taught my kids how to use Gimp for the artwork.
 
 This app won the "Best Social Media App" at iOSDevCamp2013. Did it in 20 hours!
 
@@ -24,6 +24,7 @@ Screenshots:
 Select your Facebook Friends to match up:
 
 ![Splash Screen](/screenshots/orwhatever-2.png)
+![Splash Screen](/screenshots/orwhatever-11.png)
 ![Splash Screen](/screenshots/orwhatever-3.png)
 
 Select an Activity for them to do:

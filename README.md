@@ -16,3 +16,5 @@ NOTE: This app does not work well in the simulator. It has to be running on an i
  * this stuff is worth it, you can buy me a beer in return.
  * ----------------------------------------------------------------------------
  */
+
+![Splash Screen](https://github.com/jonr925/orwhatever/blob/master/screenshots/orwhatever-1.png)

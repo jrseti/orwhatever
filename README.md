@@ -17,4 +17,4 @@ NOTE: This app does not work well in the simulator. It has to be running on an i
  * ----------------------------------------------------------------------------
  */
 
-![Splash Screen](https://github.com/jonr925/orwhatever/blob/master/screenshots/orwhatever-1.png)
+![Splash Screen](jonr925.github.com/orwhatever/screenshots/orwhatever-1.png)

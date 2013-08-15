@@ -17,13 +17,30 @@ NOTE: This app does not work well in the simulator. It has to be running on an i
  * ----------------------------------------------------------------------------
  */
 
+Screenshots: 
+
 ![Splash Screen](/screenshots/orwhatever-1.png)
+
+Select your Facebook Friends to match up:
+
 ![Splash Screen](/screenshots/orwhatever-2.png)
 ![Splash Screen](/screenshots/orwhatever-3.png)
+
+Select an Activity for them to do:
+
 ![Splash Screen](/screenshots/orwhatever-4.png)
 ![Splash Screen](/screenshots/orwhatever-5.png)
+
+Post the pic to Facebook:
+
 ![Splash Screen](/screenshots/orwhatever-6.png)
 ![Splash Screen](/screenshots/orwhatever-7.png)
+
+View the About screen:
+
 ![Splash Screen](/screenshots/orwhatever-8.png)
 ![Splash Screen](/screenshots/orwhatever-9.png)
+
+The Result on Facebook:
+
 ![Splash Screen](/screenshots/orwhatever-10.png)

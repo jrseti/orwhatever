@@ -3,15 +3,23 @@
 //  orwhatever
 //
 //  Created by jrichards on 7/13/13.
-//  Copyright (c) 2013 MoversAndShakers.mobi. All rights reserved.
 //
+
+/*
+ * ----------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 42):
+ * Jon Richards wrote this file. As long as you retain this notice you
+ * can do whatever you want with this stuff. If we meet some day, and you think
+ * this stuff is worth it, you can buy me a beer in return.
+ * ----------------------------------------------------------------------------
+ */
 
 #import "SelectMatchViewController.h"
 #import "AppDelegate.h"
 
 #define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
 
-
+//This allows informing the parent when a match image and description is selected.
 @interface SelectMatchViewController ()
 
 @end
@@ -39,8 +47,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    
+	
+    //Define the images and the descriptions
     self.descriptions = [[NSArray alloc] initWithObjects:
                          @"get together",
                          @"fall in love",
@@ -50,7 +58,7 @@
                          @"go on a run",
                          @"go fishing",
                          @"share music",
-                         @"red a book",
+                         @"read a book",
                          @"walk dogs",
                          @"work out",
                          @"go to Las Vegas",
@@ -103,12 +111,14 @@
 
 - (IBAction)okButtonPressed:(id)sender
 {
+    //Tell the parent what was selected.
     [self.delegate complete:self.description imageFilename:self.imageFilename];
+    
+    //Flip back
     [self.presentingViewController dismissViewControllerAnimated:YES completion:NULL];
 }
 
 #pragma mark PickerView DataSource
-
 
 - (NSInteger)numberOfComponentsInPickerView:
 (UIPickerView *)pickerView

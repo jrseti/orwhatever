@@ -18,8 +18,12 @@
 
 @interface InfoViewController : UIViewController
 
+@property (atomic, retain) UIWebView *webView;
 @property (atomic, retain) IBOutlet UIScrollView *scrollView;
 @property (atomic, retain) IBOutlet UIImageView *kidPic;
 @property (atomic, retain) IBOutlet UIImageView *iosDevCampPic;
+
+- (IBAction)mandsPressed:(id)sender;
+- (IBAction)iosdevcampPressed:(id)sender;
 
 @end

@@ -15,6 +15,7 @@
  */
 
 #import "InfoViewController.h"
+//#import "WebViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 #define IS_RETINA ( [[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2 )
@@ -54,6 +55,65 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)iosdevcampPressed:(id)sender
+{
+    
+    CGRect f = [ [ UIScreen mainScreen ] bounds ];
+    f.origin.y = self.scrollView.frame.origin.y;
+    f.size.height -= f.origin.y + 20.0;
+    
+    self.webView = [[UIWebView alloc] initWithFrame:f];
+    self.webView.alpha = 0.0;
+    [self.view addSubview:self.webView];
+    
+    //Create a URL object.
+    NSURL *thisURL = [NSURL URLWithString:@"http://www.iosdevcamp.org/2013/07/17/2013-winners/"];
+    
+    //URL Requst Object
+    NSMutableURLRequest *requestObj = [NSMutableURLRequest requestWithURL:thisURL];
+    
+    
+    //Load the request in the UIWebView.
+    [self.webView loadRequest:requestObj];
+    
+    
+    [UIView animateWithDuration:3.0 animations:^(void) {
+        self.scrollView.alpha = 0.0;
+        self.webView.alpha = 1.0;
+    }];
+    
+}
+
+
+- (IBAction)mandsPressed:(id)sender
+{
+    
+    CGRect f = [ [ UIScreen mainScreen ] bounds ];
+    f.origin.y = self.scrollView.frame.origin.y;
+    f.size.height -= f.origin.y + 20.0;
+    
+    self.webView = [[UIWebView alloc] initWithFrame:f];
+    self.webView.alpha = 0.0;
+    [self.view addSubview:self.webView];
+    
+    //Create a URL object.
+    NSURL *thisURL = [NSURL URLWithString:@"http://moversandshakers.mobi"];
+    
+    //URL Requst Object
+    NSMutableURLRequest *requestObj = [NSMutableURLRequest requestWithURL:thisURL];
+    
+    
+    //Load the request in the UIWebView.
+    [self.webView loadRequest:requestObj];
+    
+    
+    [UIView animateWithDuration:3.0 animations:^(void) {
+        self.scrollView.alpha = 0.0;
+        self.webView.alpha = 1.0;
+    }];
+
 }
 
 -(void)addPicBorder:(UIImageView *)imageView rotation:(float)rotation

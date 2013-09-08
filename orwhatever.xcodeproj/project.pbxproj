@@ -14,7 +14,6 @@
 		34E844A01790DA76006E9E40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34E8449E1790DA76006E9E40 /* InfoPlist.strings */; };
 		34E844A21790DA76006E9E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E844A11790DA76006E9E40 /* main.m */; };
 		34E844A61790DA76006E9E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E844A51790DA76006E9E40 /* AppDelegate.m */; };
-		34E844AC1790DA76006E9E40 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E844AB1790DA76006E9E40 /* Default-568h@2x.png */; };
 		34E844AF1790DA76006E9E40 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E844AD1790DA76006E9E40 /* MainStoryboard_iPhone.storyboard */; };
 		34E844B21790DA76006E9E40 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E844B01790DA76006E9E40 /* MainStoryboard_iPad.storyboard */; };
 		34E844B51790DA76006E9E40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E844B41790DA76006E9E40 /* ViewController.m */; };
@@ -369,7 +368,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E844A01790DA76006E9E40 /* InfoPlist.strings in Resources */,
-				34E844AC1790DA76006E9E40 /* Default-568h@2x.png in Resources */,
 				34E844AF1790DA76006E9E40 /* MainStoryboard_iPhone.storyboard in Resources */,
 				34E844B21790DA76006E9E40 /* MainStoryboard_iPad.storyboard in Resources */,
 				34E844BE1791093B006E9E40 /* FacebookSDKResources.bundle in Resources */,
@@ -535,7 +533,8 @@
 		34E844B91790DA76006E9E40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
@@ -546,6 +545,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -554,8 +554,8 @@
 		34E844BA1790DA76006E9E40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
